@@ -180,6 +180,7 @@ coo_draw(efi, border='red', col=NA)
 efi2 <- efourier_i(ef2)
 coo_draw(efi2, border='blue', col=NA)
 
+#class(aligned1) <- matrix, array
 #class(efi) <- matrix, array
 ##reconstruct coordinates to find diff in area of shapes
 polygon_area <- function(coords) {
