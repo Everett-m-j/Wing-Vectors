@@ -13,6 +13,8 @@ In bilaterally symmetrical organisms, fluctuating asymmetry indicates developmen
 |"occurrences_complete.csv"|Complete dataset of all bee wings traced for project; includes wing side, wing cell, land cover, and asymmetry variables.|
 
 #### In Data/Output
+|Data|Description|
+|:---|:---|
 |"Rplot.png|Plot consisting of the bee wings grouped by land cover, measured over percent overlap value. Percent overlap indicating the amount of overlap between left and right wing cell, for those with greater than 80% overlap.|
 |"NRMSE by Land Cover & Wing Cell.png"|Normalized root mean square error of variables used for wing cell asymmetry measurement, grouped by land cover and divided by wing cell. The higher the value the greater the asymmetry.|
 |"Regression by Land Cover & Wing Cell.png"|Coefficient of determination values of variables used for wing cell asymmetry measurement, grouped by land cover and divided by wing cell. A higher value indicates more symmetry between wing cells.|
@@ -21,12 +23,16 @@ In bilaterally symmetrical organisms, fluctuating asymmetry indicates developmen
 
 #### In Data/Script/Archive
 ##### Version history of my attempts to code for fluctuating asymmetry with SVG files.
+|Data|Description|
+|:---|:---|
 |"beedata_test.R"|Intitial testing of code for project. Converts svgs to bitmaps and attempts to read their xml data. Never got to elliptical fourier analysis.|
 |"beedata_test_momocs.R"|Analysis of wing cells using Momocs R Package. Converts svg files into bitmaps and reconstructs them as ellipses using EFA harmonics. Attempts to find asymmetry from overlapping cell area. Not sufficient for analysis of asymmetry.|
 
 
 #### In Data/Script
 ##### Code used in transforming SVG data into EFA objects.
+|Data|Description|
+|:---|:---|
 |"beedata_test_svgparser.R"|Code for inputting SVG file into Rstudio, replicating it as an Elliptical Fourier Object using harmonics, and Procrustes translating it to its opposite side pair. Also computes variables for fluctuating asymmetry including area, circularity, length, width, and percent overlap.|
 
 #### Wing Vector Shape Analysis
