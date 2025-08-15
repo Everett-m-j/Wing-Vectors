@@ -34,12 +34,28 @@ In bilaterally symmetrical organisms, fluctuating asymmetry indicates developmen
 |Data|Description|
 |:---|:---|
 |"beedata_test_svgparser.R"|Code for inputting SVG file into Rstudio, replicating it as an Elliptical Fourier Object using harmonics, and Procrustes translating it to its opposite side pair. Also computes variables for fluctuating asymmetry including area, circularity, length, width, and percent overlap.|
-|"beedata_test_forloop.R"|Code of working for loop to parse and reconstruct all SVG files in a directory as EFA objects, and then write all of their asymmetry variables 
+|"beedata_test_forloop.R"|Code of working for loop to parse and reconstruct all SVG files in a directory as EFA objects, and then write all of their asymmetry variables into the occurrences csv document.|
+|"beedata_test_forloop2.R"|Code of working for loop, same as "beedata_test_forloop.R" but with added code to rotate svg files beyond Procrustes translation, as the initial code did not properly align the two wings every time.|
+
+## General workflow for running analyses
+
+1. Download full Panurginus Polytrichus svg folder zip file from Zenodo.
+2. Download occurrences_complete.csv from Github
+3. Open beedata_test_forloop.R and scroll down to "non-flipping code." run code using svg folder as directory
+  a. check percent overlap to determine if any of the wing pairs were improperly aligned.
+  b. Check for proper alignment directly by changing directory to the svg file with low percent overlap, run "testing orientation of wings" and plot efi of both wings over each other
+4. Save dataset and open beedata_graphs.R
+5. Filter dataset to not include Notes., Total.Complete.Agr, Total.Complete.Dev, and Total.Complete.For
+6. Plot graphs of the data you wish to view
 
 #### Wing Vector Shape Analysis
 
+Contains all data of wing cell svg files.
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16619668.svg)](https://doi.org/10.5281/zenodo.16619668)
 
 #### Momocs Package Used for EFA
 
+Package for EFA construction in R. Useful to look into this package to discern more streamlined ways of coding Fourier recreations in R.
 https://momx.github.io/Momocs/
+
+
