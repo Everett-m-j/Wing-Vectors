@@ -34,6 +34,7 @@ In bilaterally symmetrical organisms, fluctuating asymmetry indicates developmen
 |Data|Description|
 |:---|:---|
 |"beedata_test_svgparser.R"|Code for inputting SVG file into Rstudio, replicating it as an Elliptical Fourier Object using harmonics, and Procrustes translating it to its opposite side pair. Also computes variables for fluctuating asymmetry including area, circularity, length, width, and percent overlap.|
+|"beedata_test_forloop.R"|Code of working for loop to parse and reconstruct all SVG files in a directory as EFA objects, and then write all of their asymmetry variables 
 
 #### Wing Vector Shape Analysis
 
