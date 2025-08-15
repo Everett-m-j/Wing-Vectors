@@ -54,6 +54,7 @@ In bilaterally symmetrical organisms, fluctuating asymmetry indicates developmen
 8. Filter dataset to not include Notes., Total.Complete.Agr, Total.Complete.Dev, and Total.Complete.For
 
 10. Plot graphs of the data you wish to view
+----------------------------------------------------------------------------
 
 #### Wing Vector Shape Analysis
 
