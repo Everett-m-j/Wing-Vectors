@@ -1,7 +1,7 @@
 # Fluctuating asymmetry analysis in bee wings points towards developmental health issues based on land cover
 
 ----------------------------------------------------------------------------
-This project was made possible by the FUERTE program at UC Santa Barbara, an undergraduate research internship dedicated to providing science-based career opportunities to people of all backgrounds. It was also made possible by the work of Dr. Seltmann, Charlie Thrift, and the rest of the Big Bee team at the Cheadle Center for Biodiversity and Ecological Restoration.
+##### This project was made possible by the FUERTE program at UC Santa Barbara, an undergraduate research internship dedicated to providing science-based career opportunities to people of all backgrounds. It was also made possible by the work of Dr. Seltmann, Charlie Thrift, and the rest of the Big Bee team at the Cheadle Center for Biodiversity and Ecological Restoration.
 ----------------------------------------------------------------------------
 
 ## Abstract
