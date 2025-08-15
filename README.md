@@ -42,13 +42,18 @@ In bilaterally symmetrical organisms, fluctuating asymmetry indicates developmen
 
 ----------------------------------------------------------------------------
 1. Download full Panurginus Polytrichus svg folder zip file from Zenodo.
-2. Download occurrences_complete.csv from Github
-3. Open beedata_test_forloop.R and scroll down to "non-flipping code." run code using svg folder as directory
+
+3. Download occurrences_complete.csv from Github
+
+5. Open beedata_test_forloop.R and scroll down to "non-flipping code." run code using svg folder as directory
      1. check percent overlap to determine if any of the wing pairs were improperly aligned.
      2. Check for proper alignment directly by changing directory to the svg file with low percent overlap, run "testing orientation of wings" and plot efi of both wings over each other
-5. Save dataset and open beedata_graphs.R
-6. Filter dataset to not include Notes., Total.Complete.Agr, Total.Complete.Dev, and Total.Complete.For
-7. Plot graphs of the data you wish to view
+  
+6. Save dataset and open beedata_graphs.R
+
+8. Filter dataset to not include Notes., Total.Complete.Agr, Total.Complete.Dev, and Total.Complete.For
+
+10. Plot graphs of the data you wish to view
 
 #### Wing Vector Shape Analysis
 
