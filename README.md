@@ -60,4 +60,20 @@ Contains all data of wing cell svg files.
 Package for EFA construction in R. Useful to look into this package to discern more streamlined ways of coding Fourier recreations in R.
 https://momx.github.io/Momocs/
 
+## Definitions of column names in *occurrences_complete.csv*
+|Column Name|Definition|
+|:---|:---|
+|catalogNumber|bee catalog number|
+|WingSide|left or right side of bee wing|
+|ImageName|name of svg image taken from folder|
+|Asymmetry%|asymmetry value of wing pair, currently NA for all specimens|
+|Cell|Wing cell of bee, 1 for marginal cell and 4 for 2nd cubital|
+|Location|location where bee was caught|
+|decimalLatitude|decimal latitude where bee was caught|
+|decimalLongitude|decimal longitude where bee was caught|
+|Site_name|name of site bee was caught|
+|Site_code|code of site bee was caught|
+|Land_cover|land cover where bee was caught. Between "agricultural", "developed", and "forest"|
+|Notes:|notes pertaining to specific bee caught|
+|Total.Complete~|metric for number of bees imaged from each and cover during initial occurrences.csv testing|
 
