@@ -1,11 +1,13 @@
-# Abstract
+# Fluctuating asymmetry analysis in bee wings points towards developmental health issues based on land cover
+
+## Abstract
 
 In bilaterally symmetrical organisms, fluctuating asymmetry indicates developmental health issues typically caused by the environment of the organism. Within bees, fluctuating asymmetry of the wing has been used to indicate health defects based on environmental gradients such as areas with urban to forested land cover, with the interpretation that developed areas –due to the urban heat island effect, habitat fragmentation, and greater pollutants– will cause greater developmental defects to bees. Typical practice employs use of landmarking wing junctions to represent asymmetry, with the formula (|R - L|) as a metric to find asymmetry measurements. However, this linear method results in limitations on finding asymmetry from circularity, curvature, and area of the wings. This project attempts a more comprehensive method, which uses the outline of the wing cells themselves, saved as vector files, to directly compare between the left and right wing of the bee. It involves tracing wing cells from the bee species Panurginus Polytrichus, collected in three different land cover sites –Developed, Agricultural, and Forest– to analyze whether or not those sites will result in differing fluctuating asymmetry values, thereby linking developmental health defects to specific regions. The species Panurginus Polytrichus was chosen due to the high number of individuals collected within the dataset used for the experiment. Choosing a single species of bee allows for more control in variation within the experiment. This exploratory study so far covers the methods of obtaining bee wing asymmetry values, through tracing and plotting the data in R, as well as visualizing the data as a fluctuating asymmetry value through regression analysis and Normalized Root Mean Square Error. My hypothesis is that if a greater overall fluctuating asymmetry value is found in developed sites, then the environments of those developed sites cause birth defects in bees, leading to a lower quality of life overall.
 
-# Wing Vector Shape Analysis
+#### Wing Vector Shape Analysis
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16619668.svg)](https://doi.org/10.5281/zenodo.16619668)
 
-# Momocs Package Used for EFA
+#### Momocs Package Used for EFA
 
 https://momx.github.io/Momocs/
